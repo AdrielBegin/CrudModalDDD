@@ -34,13 +34,15 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IClienteRepository.cs" />
+    <Compile Include="Interface\IRepositoryRead.cs" />
+    <Compile Include="Interface\IRepositoryWrite.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Endereco.cs" />
     <Compile Include="Models\Entity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interface\" />
     <Folder Include="Services\" />
     <Folder Include="Value Objects\" />
   </ItemGroup>
