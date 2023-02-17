@@ -1,4 +1,4 @@
-using EP.Curso.MVC.Site.Data;
+using EP.CursoMvc.Site.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EP.Curso.MVC.Site
+namespace EP.CursoMvc.Site
 {
     public class Startup
     {

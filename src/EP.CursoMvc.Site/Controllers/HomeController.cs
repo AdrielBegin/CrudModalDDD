@@ -1,4 +1,4 @@
-﻿using EP.Curso.MVC.Site.Models;
+﻿using EP.CursoMvc.Site.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EP.Curso.MVC.Site.Controllers
+namespace EP.CursoMvc.Site.Controllers
 {
     public class HomeController : Controller
     {

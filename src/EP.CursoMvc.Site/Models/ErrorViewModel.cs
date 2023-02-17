@@ -1,6 +1,6 @@
 using System;
 
-namespace EP.Curso.MVC.Site.Models
+namespace EP.CursoMvc.Site.Models
 {
     public class ErrorViewModel
     {

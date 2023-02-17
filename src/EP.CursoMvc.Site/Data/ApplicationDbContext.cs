@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace EP.Curso.MVC.Site.Data
+namespace EP.CursoMvc.Site.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

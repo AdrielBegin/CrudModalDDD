@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace EP.Curso.MVC.Site.Data.Migrations
+namespace EP.CursoMvc.Site.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

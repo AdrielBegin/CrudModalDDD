@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EP.Curso.MVC.Site
+namespace EP.CursoMvc.Site
 {
     public class Program
     {
