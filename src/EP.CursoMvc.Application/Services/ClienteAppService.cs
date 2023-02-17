@@ -48,7 +48,9 @@ namespace EP.CursoMvc.Application.Services
             cliente.AdicionarEndereco(endereco);
 
             if (!cliente.EhValido()) return clienteEnderecoViewModel;
-
+            
+            _clienteRepository.Adicionar(cliente);
+             
             return clienteEnderecoViewModel;
 
 
@@ -56,17 +58,23 @@ namespace EP.CursoMvc.Application.Services
 
         public ClienteViewModel Atualizar(ClienteViewModel clienteViewModel)
         {
-            throw new NotImplementedException();
+            var cliente = Mapper.Map<Cliente>(clienteViewModel);
+            
+            if (!cliente.EhValido()) return clienteViewModel;
+            
+            _clienteRepository.Atualizar(cliente);
+            
+            return clienteViewModel;
         }
 
         public void Remover(Guid id)
         {
-            throw new NotImplementedException();
+            _clienteRepository.Remover(id);
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _clienteRepository.Dispose();
         }
     }
 }
